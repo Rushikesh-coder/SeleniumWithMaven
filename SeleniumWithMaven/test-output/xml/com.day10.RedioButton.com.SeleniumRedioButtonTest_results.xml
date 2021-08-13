@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.244">
+  <properties />
+  
+  
+            <testcase name="TC03VerifyGroupRedioButtonDemoField" time="0.472" classname="com.day10.RedioButton.com.SeleniumRedioButtonTest" />
+                <testcase name="TC_01VerifyHeaderofRedioButtonDemoPage" time="0.081" classname="com.day10.RedioButton.com.SeleniumRedioButtonTest" />
+                <testcase name="TC_02VerifyRedioButtonDemoField" time="0.691" classname="com.day10.RedioButton.com.SeleniumRedioButtonTest" />
+      
+</testsuite>

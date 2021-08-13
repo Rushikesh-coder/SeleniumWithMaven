@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.081">
+  <properties />
+  
+  
+            <testcase name="TC_03VerifyMultiInputField" time="0.452" classname="com.day10.testNGIntegration.SeleniumEasyTest" />
+                <testcase name="TC_02VerifySingleInputField" time="0.502" classname="com.day10.testNGIntegration.SeleniumEasyTest" />
+                <testcase name="TC_01VerifyDropdownClickOnValueAndInputDemoPageIsDisplayed" time="2.127" classname="com.day10.testNGIntegration.SeleniumEasyTest" />
+      
+</testsuite>
