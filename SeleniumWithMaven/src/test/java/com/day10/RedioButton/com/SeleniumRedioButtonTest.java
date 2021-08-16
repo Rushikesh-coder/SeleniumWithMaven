@@ -41,10 +41,6 @@ public class SeleniumRedioButtonTest extends BaseTest{
 		objSeleniumRedioButtonPage.checkGroutRedioResult();
 	}
 	
-	@AfterClass
-	public void tearDown()
-	{
-		
-	}
+
 
 }
