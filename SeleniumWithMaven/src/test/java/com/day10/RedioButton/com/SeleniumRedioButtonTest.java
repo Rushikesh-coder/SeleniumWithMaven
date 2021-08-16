@@ -1,5 +1,6 @@
 package com.day10.RedioButton.com;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -38,6 +39,12 @@ public class SeleniumRedioButtonTest extends BaseTest{
 		objSeleniumRedioButtonPage.clickOnGroupRedioButtonAge("5 - 15");
 		objSeleniumRedioButtonPage.clickonGetValueButton();
 		objSeleniumRedioButtonPage.checkGroutRedioResult();
+	}
+	
+	@AfterClass
+	public void tearDown()
+	{
+		
 	}
 
 }
