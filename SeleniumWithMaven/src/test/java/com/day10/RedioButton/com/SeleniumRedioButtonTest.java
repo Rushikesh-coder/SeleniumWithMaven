@@ -41,13 +41,6 @@ public class SeleniumRedioButtonTest extends BaseTest{
 		objSeleniumRedioButtonPage.checkGroutRedioResult();
 	}
 	
-	public void TC03VerifyGroupButtonDemoField()
-	{
-		objSeleniumRedioButtonPage.clickOnGroupRedioButtonsGender("Male");
-		objSeleniumRedioButtonPage.clickOnGroupRedioButtonAge("5 - 15");
-		objSeleniumRedioButtonPage.clickonGetValueButton();
-		objSeleniumRedioButtonPage.checkGroutRedioResult();
-	}
 
 
 }
