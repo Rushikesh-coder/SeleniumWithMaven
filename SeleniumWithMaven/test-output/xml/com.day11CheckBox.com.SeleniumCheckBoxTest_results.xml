@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.969">
+  <properties />
+  
+  
+            <testcase name="TC_02VerifyAndClickSingleCheckBox" time="0.212" classname="com.day11CheckBox.com.SeleniumCheckBoxTest" />
+                <testcase name="TC_03verifyResultOfSingleCheckBox" time="0.050" classname="com.day11CheckBox.com.SeleniumCheckBoxTest" />
+                <testcase name="TC_04VerifyAndClickMultipleCheckBoxes" time="0.623" classname="com.day11CheckBox.com.SeleniumCheckBoxTest" />
+                <testcase name="TC_01CheckBoxPageHeaderTextIsDisplayed" time="0.084" classname="com.day11CheckBox.com.SeleniumCheckBoxTest" />
+      
+</testsuite>

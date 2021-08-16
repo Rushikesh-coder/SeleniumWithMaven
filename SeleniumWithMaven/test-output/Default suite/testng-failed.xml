@@ -3,7 +3,7 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="com.day10.RedioButton.com.SeleniumRedioButtonTest"/>
+      <class name="com.day11CheckBox.com.SeleniumCheckBoxTest"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->

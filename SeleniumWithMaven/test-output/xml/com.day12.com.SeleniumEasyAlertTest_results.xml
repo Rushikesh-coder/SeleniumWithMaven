@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.463">
+  <properties />
+  
+  
+            <testcase name="TC_01verifyDropdownClickValueAndPageIsDesplayed" time="1.863" classname="com.day12.com.SeleniumEasyAlertTest" />
+                <testcase name="TC_05ClickButtonAndVerifyAlertTextNormalWarning" time="0.257" classname="com.day12.com.SeleniumEasyAlertTest" />
+                <testcase name="TC_07ClickButtonAndVerifyAlertTextNormalDenger" time="0.160" classname="com.day12.com.SeleniumEasyAlertTest" />
+                <testcase name="TC_02ClickButtonAndVerifyAlertTextAutoCloseSuccess" time="0.184" classname="com.day12.com.SeleniumEasyAlertTest" />
+                <testcase name="TC_03ClickButtonAndVerifyAlertTextNormalSuccess" time="0.149" classname="com.day12.com.SeleniumEasyAlertTest" />
+                <testcase name="TC_06ClickButtonAndVerifyAlertTextAutoCloseDenger" time="0.176" classname="com.day12.com.SeleniumEasyAlertTest" />
+                <testcase name="TC_04ClickButtonAndVerifyAlertTextAutoCloseWarning" time="0.241" classname="com.day12.com.SeleniumEasyAlertTest" />
+                <testcase name="TC_09ClickButtonAndVerifyAlertTextNormalINFO" time="0.208" classname="com.day12.com.SeleniumEasyAlertTest" />
+                <testcase name="TC_08ClickButtonAndVerifyAlertTextAutoCloseINFO" time="0.225" classname="com.day12.com.SeleniumEasyAlertTest" />
+      
+</testsuite>

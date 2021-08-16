@@ -7,8 +7,39 @@
   </listeners>
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.day12.com.SeleniumEasyAlertTest"/>
       <class name="com.day10.testNGIntegration.SeleniumEasyTest"/>
       <class name="com.day10.RedioButton.com.SeleniumRedioButtonTest"/>
+      <class name="com.day11CheckBox.com.SeleniumCheckBoxTest"/>
     </classes>
   </test> <!-- Test -->
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.day11CheckBox.com.SeleniumCheckBoxTest">
+        <methods>
+          <include name="initalizeWebEnvirnmentSetUp"/>
+        </methods>
+      </class> <!-- com.day11CheckBox.com.SeleniumCheckBoxTest -->
+      <class name="com.day10.RedioButton.com.SeleniumRedioButtonTest">
+        <methods>
+          <include name="setUpWebEnvirnment"/>
+        </methods>
+      </class> <!-- com.day10.RedioButton.com.SeleniumRedioButtonTest -->
+      <class name="com.day10.testNGIntegration.SeleniumEasyTest">
+        <methods>
+          <include name="TC_01VerifyDropdownClickOnValueAndInputDemoPageIsDisplayed"/>
+          <include name="TC_02VerifySingleInputField"/>
+          <include name="TC_03VerifyMultiInputField"/>
+          <include name="tearDownCloseEnvirnment"/>
+          <include name="setUpWebEnvirnment"/>
+        </methods>
+      </class> <!-- com.day10.testNGIntegration.SeleniumEasyTest -->
+      <class name="com.day12.com.SeleniumEasyAlertTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="initalizewebSetUpEnvirnment"/>
+        </methods>
+      </class> <!-- com.day12.com.SeleniumEasyAlertTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
