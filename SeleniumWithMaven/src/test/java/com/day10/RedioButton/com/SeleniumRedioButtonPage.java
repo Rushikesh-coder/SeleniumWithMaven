@@ -30,6 +30,11 @@ public class SeleniumRedioButtonPage {
 	}
 	
 	
+	//Added to check git working....................
+	public void check()
+	{
+		Assert.assertFalse(this.checkIsRadioButtonIsSelected(strPath));
+	}
 	public void clickonGetCheckedValueButton()     //Click on get Value button
 	{
 		objBaseTest.getDriver().findElement(By.xpath("//*[text()='Get Checked value']")).click();
