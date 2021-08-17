@@ -7,4 +7,5 @@
 			<class name="com.day12.grouping.com.SeleniumEasyAlertTest" />
 		</classes>
 	</test> <!-- Test -->
+	
 </suite> <!-- Suite -->
