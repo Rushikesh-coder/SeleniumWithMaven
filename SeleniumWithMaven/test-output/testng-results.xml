@@ -1,312 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="19" passed="16" failed="3" skipped="0">
+<testng-results total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-16T07:51:38Z" name="Suite" finished-at="2021-08-16T07:52:50Z" duration-ms="71559">
+  <suite started-at="2021-08-17T13:28:15Z" name="Suite" finished-at="2021-08-17T13:28:29Z" duration-ms="14107">
     <groups>
+      <group name="SmokeTest">
+        <method signature="SeleniumEasyAlertTest.TC_05ClickButtonAndVerifyAlertTextNormalWarning()[pri:5, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_05ClickButtonAndVerifyAlertTextNormalWarning" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
+        <method signature="SeleniumEasyAlertTest.TC_07ClickButtonAndVerifyAlertTextNormalDenger()[pri:7, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_07ClickButtonAndVerifyAlertTextNormalDenger" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
+        <method signature="SeleniumEasyAlertTest.TC_09ClickButtonAndVerifyAlertTextNormalINFO()[pri:9, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_09ClickButtonAndVerifyAlertTextNormalINFO" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegrationTest">
+        <method signature="SeleniumEasyAlertTest.TC_01verifyDropdownClickValueAndPageIsDesplayed()[pri:1, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_01verifyDropdownClickValueAndPageIsDesplayed" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
+        <method signature="SeleniumEasyAlertTest.TC_04ClickButtonAndVerifyAlertTextAutoCloseWarning()[pri:4, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_04ClickButtonAndVerifyAlertTextAutoCloseWarning" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
+        <method signature="SeleniumEasyAlertTest.TC_08ClickButtonAndVerifyAlertTextAutoCloseINFO()[pri:8, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_08ClickButtonAndVerifyAlertTextAutoCloseINFO" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
+      </group> <!-- RegrationTest -->
+      <group name="SanatyTest">
+        <method signature="SeleniumEasyAlertTest.TC_03ClickButtonAndVerifyAlertTextNormalSuccess()[pri:3, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_03ClickButtonAndVerifyAlertTextNormalSuccess" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
+        <method signature="SeleniumEasyAlertTest.TC_06ClickButtonAndVerifyAlertTextAutoCloseDenger()[pri:6, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_06ClickButtonAndVerifyAlertTextAutoCloseDenger" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
+      </group> <!-- SanatyTest -->
     </groups>
-    <test started-at="2021-08-16T07:51:38Z" name="Test" finished-at="2021-08-16T07:52:50Z" duration-ms="71559">
-      <class name="com.day10.testNGIntegration.SeleniumEasyTest">
-        <test-method is-config="true" signature="setUpWebEnvirnment()[pri:0, instance:com.day10.testNGIntegration.SeleniumEasyTest@1f9e9475]" started-at="2021-08-16T13:21:50Z" name="setUpWebEnvirnment" finished-at="2021-08-16T13:21:59Z" duration-ms="9565" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpWebEnvirnment -->
-        <test-method signature="TC_01VerifyDropdownClickOnValueAndInputDemoPageIsDisplayed()[pri:1, instance:com.day10.testNGIntegration.SeleniumEasyTest@1f9e9475]" started-at="2021-08-16T13:21:59Z" name="TC_01VerifyDropdownClickOnValueAndInputDemoPageIsDisplayed" finished-at="2021-08-16T13:22:01Z" duration-ms="1685" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <a href="./basic-first-form-demo.html">...</a> is not clickable at point (305, 235). Other element would receive the click: <div id="at-cv-lightbox-inner">...</div>
-  (Session info: chrome=92.0.4515.131)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-RKOMUFV', ip: '192.168.43.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 190fa3c7b603a9b9022048ad26bd4539]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="./basic-first-form-demo.html">...</a> is not clickable at point (305, 235). Other element would receive the click: <div id="at-cv-lightbox-inner">...</div>
-  (Session info: chrome=92.0.4515.131)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-RKOMUFV', ip: '192.168.43.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 190fa3c7b603a9b9022048ad26bd4539
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.day10.testNGIntegration.SeleniumEasyPage.getvaluesOfDropDown(SeleniumEasyPage.java:62)
-	at com.day10.testNGIntegration.SeleniumEasyPage.getDropdownAndValues(SeleniumEasyPage.java:69)
-	at com.day10.testNGIntegration.SeleniumEasyTest.TC_01VerifyDropdownClickOnValueAndInputDemoPageIsDisplayed(SeleniumEasyTest.java:27)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_01VerifyDropdownClickOnValueAndInputDemoPageIsDisplayed -->
-        <test-method signature="TC_02VerifySingleInputField()[pri:2, instance:com.day10.testNGIntegration.SeleniumEasyTest@1f9e9475]" started-at="2021-08-16T13:22:24Z" name="TC_02VerifySingleInputField" finished-at="2021-08-16T13:22:34Z" duration-ms="10045" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Single Input Field']"}
-  (Session info: chrome=92.0.4515.131)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-RKOMUFV', ip: '192.168.43.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 190fa3c7b603a9b9022048ad26bd4539
-*** Element info: {Using=xpath, value=//div[text()='Single Input Field']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Single Input Field']"}
-  (Session info: chrome=92.0.4515.131)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-RKOMUFV', ip: '192.168.43.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 190fa3c7b603a9b9022048ad26bd4539
-*** Element info: {Using=xpath, value=//div[text()='Single Input Field']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.day10.testNGIntegration.SeleniumEasyPage.verifyInputFields(SeleniumEasyPage.java:87)
-	at com.day10.testNGIntegration.SeleniumEasyTest.TC_02VerifySingleInputField(SeleniumEasyTest.java:34)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_02VerifySingleInputField -->
-        <test-method signature="TC_03VerifyMultiInputField()[pri:3, instance:com.day10.testNGIntegration.SeleniumEasyTest@1f9e9475]" started-at="2021-08-16T13:22:34Z" name="TC_03VerifyMultiInputField" finished-at="2021-08-16T13:22:45Z" duration-ms="10063" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Two Input Fields']"}
-  (Session info: chrome=92.0.4515.131)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-RKOMUFV', ip: '192.168.43.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 190fa3c7b603a9b9022048ad26bd4539
-*** Element info: {Using=xpath, value=//div[text()='Two Input Fields']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Two Input Fields']"}
-  (Session info: chrome=92.0.4515.131)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-RKOMUFV', ip: '192.168.43.225', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 190fa3c7b603a9b9022048ad26bd4539
-*** Element info: {Using=xpath, value=//div[text()='Two Input Fields']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.day10.testNGIntegration.SeleniumEasyPage.verifyInputFields(SeleniumEasyPage.java:87)
-	at com.day10.testNGIntegration.SeleniumEasyTest.TC_03VerifyMultiInputField(SeleniumEasyTest.java:43)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_03VerifyMultiInputField -->
-        <test-method is-config="true" signature="tearDownCloseEnvirnment()[pri:0, instance:com.day10.testNGIntegration.SeleniumEasyTest@1f9e9475]" started-at="2021-08-16T13:22:45Z" name="tearDownCloseEnvirnment" finished-at="2021-08-16T13:22:46Z" duration-ms="1025" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownCloseEnvirnment -->
-      </class> <!-- com.day10.testNGIntegration.SeleniumEasyTest -->
-      <class name="com.day12.com.SeleniumEasyAlertTest">
-        <test-method is-config="true" signature="initalizewebSetUpEnvirnment()[pri:0, instance:com.day12.com.SeleniumEasyAlertTest@169bb4dd]" started-at="2021-08-16T13:21:38Z" name="initalizewebSetUpEnvirnment" finished-at="2021-08-16T13:21:48Z" duration-ms="9765" status="PASS">
+    <test started-at="2021-08-17T13:28:15Z" name="Test" finished-at="2021-08-17T13:28:29Z" duration-ms="14107">
+      <class name="com.day12.grouping.com.SeleniumEasyAlertTest">
+        <test-method is-config="true" signature="initalizewebSetUpEnvirnment()[pri:0, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:15Z" name="initalizewebSetUpEnvirnment" finished-at="2021-08-17T18:58:24Z" duration-ms="9395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalizewebSetUpEnvirnment -->
-        <test-method signature="TC_01verifyDropdownClickValueAndPageIsDesplayed()[pri:1, instance:com.day12.com.SeleniumEasyAlertTest@169bb4dd]" started-at="2021-08-16T13:21:48Z" name="TC_01verifyDropdownClickValueAndPageIsDesplayed" finished-at="2021-08-16T13:21:50Z" duration-ms="1863" status="PASS">
+        <test-method signature="TC_01verifyDropdownClickValueAndPageIsDesplayed()[pri:1, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:24Z" name="TC_01verifyDropdownClickValueAndPageIsDesplayed" finished-at="2021-08-17T18:58:27Z" duration-ms="2655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01verifyDropdownClickValueAndPageIsDesplayed -->
-        <test-method signature="TC_02ClickButtonAndVerifyAlertTextAutoCloseSuccess()[pri:2, instance:com.day12.com.SeleniumEasyAlertTest@169bb4dd]" started-at="2021-08-16T13:22:24Z" name="TC_02ClickButtonAndVerifyAlertTextAutoCloseSuccess" finished-at="2021-08-16T13:22:24Z" duration-ms="184" status="PASS">
+        <test-method signature="TC_02ClickButtonAndVerifyAlertTextAutoCloseSuccess()[pri:2, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:27Z" name="TC_02ClickButtonAndVerifyAlertTextAutoCloseSuccess" finished-at="2021-08-17T18:58:27Z" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02ClickButtonAndVerifyAlertTextAutoCloseSuccess -->
-        <test-method signature="TC_03ClickButtonAndVerifyAlertTextNormalSuccess()[pri:3, instance:com.day12.com.SeleniumEasyAlertTest@169bb4dd]" started-at="2021-08-16T13:22:34Z" name="TC_03ClickButtonAndVerifyAlertTextNormalSuccess" finished-at="2021-08-16T13:22:34Z" duration-ms="149" status="PASS">
+        <test-method signature="TC_03ClickButtonAndVerifyAlertTextNormalSuccess()[pri:3, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:27Z" name="TC_03ClickButtonAndVerifyAlertTextNormalSuccess" finished-at="2021-08-17T18:58:27Z" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03ClickButtonAndVerifyAlertTextNormalSuccess -->
-        <test-method signature="TC_04ClickButtonAndVerifyAlertTextAutoCloseWarning()[pri:4, instance:com.day12.com.SeleniumEasyAlertTest@169bb4dd]" started-at="2021-08-16T13:22:46Z" name="TC_04ClickButtonAndVerifyAlertTextAutoCloseWarning" finished-at="2021-08-16T13:22:46Z" duration-ms="241" status="PASS">
+        <test-method signature="TC_04ClickButtonAndVerifyAlertTextAutoCloseWarning()[pri:4, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:27Z" name="TC_04ClickButtonAndVerifyAlertTextAutoCloseWarning" finished-at="2021-08-17T18:58:28Z" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_04ClickButtonAndVerifyAlertTextAutoCloseWarning -->
-        <test-method signature="TC_05ClickButtonAndVerifyAlertTextNormalWarning()[pri:5, instance:com.day12.com.SeleniumEasyAlertTest@169bb4dd]" started-at="2021-08-16T13:22:47Z" name="TC_05ClickButtonAndVerifyAlertTextNormalWarning" finished-at="2021-08-16T13:22:47Z" duration-ms="257" status="PASS">
+        <test-method signature="TC_05ClickButtonAndVerifyAlertTextNormalWarning()[pri:5, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:28Z" name="TC_05ClickButtonAndVerifyAlertTextNormalWarning" finished-at="2021-08-17T18:58:28Z" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_05ClickButtonAndVerifyAlertTextNormalWarning -->
-        <test-method signature="TC_06ClickButtonAndVerifyAlertTextAutoCloseDenger()[pri:6, instance:com.day12.com.SeleniumEasyAlertTest@169bb4dd]" started-at="2021-08-16T13:22:47Z" name="TC_06ClickButtonAndVerifyAlertTextAutoCloseDenger" finished-at="2021-08-16T13:22:47Z" duration-ms="176" status="PASS">
+        <test-method signature="TC_06ClickButtonAndVerifyAlertTextAutoCloseDenger()[pri:6, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:28Z" name="TC_06ClickButtonAndVerifyAlertTextAutoCloseDenger" finished-at="2021-08-17T18:58:28Z" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_06ClickButtonAndVerifyAlertTextAutoCloseDenger -->
-        <test-method signature="TC_07ClickButtonAndVerifyAlertTextNormalDenger()[pri:7, instance:com.day12.com.SeleniumEasyAlertTest@169bb4dd]" started-at="2021-08-16T13:22:47Z" name="TC_07ClickButtonAndVerifyAlertTextNormalDenger" finished-at="2021-08-16T13:22:48Z" duration-ms="160" status="PASS">
+        <test-method signature="TC_07ClickButtonAndVerifyAlertTextNormalDenger()[pri:7, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:28Z" name="TC_07ClickButtonAndVerifyAlertTextNormalDenger" finished-at="2021-08-17T18:58:28Z" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_07ClickButtonAndVerifyAlertTextNormalDenger -->
-        <test-method signature="TC_08ClickButtonAndVerifyAlertTextAutoCloseINFO()[pri:8, instance:com.day12.com.SeleniumEasyAlertTest@169bb4dd]" started-at="2021-08-16T13:22:48Z" name="TC_08ClickButtonAndVerifyAlertTextAutoCloseINFO" finished-at="2021-08-16T13:22:48Z" duration-ms="225" status="PASS">
+        <test-method signature="TC_08ClickButtonAndVerifyAlertTextAutoCloseINFO()[pri:8, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:28Z" name="TC_08ClickButtonAndVerifyAlertTextAutoCloseINFO" finished-at="2021-08-17T18:58:28Z" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_08ClickButtonAndVerifyAlertTextAutoCloseINFO -->
-        <test-method signature="TC_09ClickButtonAndVerifyAlertTextNormalINFO()[pri:9, instance:com.day12.com.SeleniumEasyAlertTest@169bb4dd]" started-at="2021-08-16T13:22:48Z" name="TC_09ClickButtonAndVerifyAlertTextNormalINFO" finished-at="2021-08-16T13:22:48Z" duration-ms="208" status="PASS">
+        <test-method signature="TC_09ClickButtonAndVerifyAlertTextNormalINFO()[pri:9, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:28Z" name="TC_09ClickButtonAndVerifyAlertTextNormalINFO" finished-at="2021-08-17T18:58:29Z" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_09ClickButtonAndVerifyAlertTextNormalINFO -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.day12.com.SeleniumEasyAlertTest@169bb4dd]" started-at="2021-08-16T13:22:48Z" name="closeBrowser" finished-at="2021-08-16T13:22:50Z" duration-ms="1635" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:29Z" name="closeBrowser" finished-at="2021-08-17T18:58:29Z" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.day12.com.SeleniumEasyAlertTest -->
-      <class name="com.day10.RedioButton.com.SeleniumRedioButtonTest">
-        <test-method is-config="true" signature="setUpWebEnvirnment()[pri:0, instance:com.day10.RedioButton.com.SeleniumRedioButtonTest@3aa078fd]" started-at="2021-08-16T13:22:01Z" name="setUpWebEnvirnment" finished-at="2021-08-16T13:22:10Z" duration-ms="9047" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpWebEnvirnment -->
-        <test-method signature="TC_01VerifyHeaderofRedioButtonDemoPage()[pri:1, instance:com.day10.RedioButton.com.SeleniumRedioButtonTest@3aa078fd]" started-at="2021-08-16T13:22:10Z" name="TC_01VerifyHeaderofRedioButtonDemoPage" finished-at="2021-08-16T13:22:10Z" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_01VerifyHeaderofRedioButtonDemoPage -->
-        <test-method signature="TC_02VerifyRedioButtonDemoField()[pri:2, instance:com.day10.RedioButton.com.SeleniumRedioButtonTest@3aa078fd]" started-at="2021-08-16T13:22:34Z" name="TC_02VerifyRedioButtonDemoField" finished-at="2021-08-16T13:22:34Z" duration-ms="348" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_02VerifyRedioButtonDemoField -->
-        <test-method signature="TC03VerifyGroupRedioButtonDemoField()[pri:3, instance:com.day10.RedioButton.com.SeleniumRedioButtonTest@3aa078fd]" started-at="2021-08-16T13:22:46Z" name="TC03VerifyGroupRedioButtonDemoField" finished-at="2021-08-16T13:22:46Z" duration-ms="504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC03VerifyGroupRedioButtonDemoField -->
-      </class> <!-- com.day10.RedioButton.com.SeleniumRedioButtonTest -->
-      <class name="com.day11CheckBox.com.SeleniumCheckBoxTest">
-        <test-method is-config="true" signature="initalizeWebEnvirnmentSetUp()[pri:0, instance:com.day11CheckBox.com.SeleniumCheckBoxTest@d23e042]" started-at="2021-08-16T13:22:10Z" name="initalizeWebEnvirnmentSetUp" finished-at="2021-08-16T13:22:23Z" duration-ms="13287" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initalizeWebEnvirnmentSetUp -->
-        <test-method signature="TC_01CheckBoxPageHeaderTextIsDisplayed()[pri:1, instance:com.day11CheckBox.com.SeleniumCheckBoxTest@d23e042]" started-at="2021-08-16T13:22:23Z" name="TC_01CheckBoxPageHeaderTextIsDisplayed" finished-at="2021-08-16T13:22:24Z" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_01CheckBoxPageHeaderTextIsDisplayed -->
-        <test-method signature="TC_02VerifyAndClickSingleCheckBox()[pri:2, instance:com.day11CheckBox.com.SeleniumCheckBoxTest@d23e042]" started-at="2021-08-16T13:22:34Z" name="TC_02VerifyAndClickSingleCheckBox" finished-at="2021-08-16T13:22:34Z" duration-ms="212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_02VerifyAndClickSingleCheckBox -->
-        <test-method signature="TC_03verifyResultOfSingleCheckBox()[pri:3, instance:com.day11CheckBox.com.SeleniumCheckBoxTest@d23e042]" started-at="2021-08-16T13:22:46Z" name="TC_03verifyResultOfSingleCheckBox" finished-at="2021-08-16T13:22:46Z" duration-ms="50" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_03verifyResultOfSingleCheckBox -->
-        <test-method signature="TC_04VerifyAndClickMultipleCheckBoxes()[pri:4, instance:com.day11CheckBox.com.SeleniumCheckBoxTest@d23e042]" started-at="2021-08-16T13:22:46Z" name="TC_04VerifyAndClickMultipleCheckBoxes" finished-at="2021-08-16T13:22:47Z" duration-ms="623" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_04VerifyAndClickMultipleCheckBoxes -->
-      </class> <!-- com.day11CheckBox.com.SeleniumCheckBoxTest -->
+      </class> <!-- com.day12.grouping.com.SeleniumEasyAlertTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

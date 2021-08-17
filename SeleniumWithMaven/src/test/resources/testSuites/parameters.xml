@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="ParameterFromXMLTest Test">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="env" value="qa"></parameter>
+
+		<classes>
+
+			<class
+				name="com.day12Paramiterizetion.com.TestParamiterization" />
+			<class
+				name="com.day12Paramiterizetion.com.ParameterFromXMLTest" />
+
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="ParameterFromXMLTest2 Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="env" value="uat"></parameter>
+
+		<classes>
+			<class
+				name="com.day12Paramiterizetion.com.TestParamiterization" />
+			<class
+				name="com.day12Paramiterizetion.com.ParameterFromXMLTest" />
+
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

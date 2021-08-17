@@ -3,7 +3,18 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="com.day11CheckBox.com.SeleniumCheckBoxTest"/>
+      <class name="com.day12.Dropdown.com.DropdownTest"/>
     </classes>
   </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.day12.Dropdown.com.DropdownTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initalizeWebEnvirnmentSetUp"/>
+          <include name="TC_01VerifyHeaderOfPage"/>
+        </methods>
+      </class> <!-- com.day12.Dropdown.com.DropdownTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
