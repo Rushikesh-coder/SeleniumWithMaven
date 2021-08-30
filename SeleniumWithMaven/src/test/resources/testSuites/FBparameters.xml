@@ -9,5 +9,14 @@
 
 		</classes>
 	</test> <!-- Test -->
+	
+	<test name="ParameterFacebook2 Test">
+	<parameter name="browser" value="chrome"></parameter>
+		<parameter name="env" value="UAT"></parameter>
+		<classes>
+			<class name="com.day12.facebookPara.com.logInTest" />
+
+		</classes>
+	</test> <!-- Test -->
 
 </suite> <!-- Suite -->

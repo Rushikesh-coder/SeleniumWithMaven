@@ -69,6 +69,8 @@ public class SeleniumEasyPage {
 		this.getvaluesOfDropDown(strSelectValue);
 	}
 	
+	
+	//page
 	public void verifyDemoPageIsDisplayed(String strExpectedText)
 	{
 		objBaseTest.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

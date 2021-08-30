@@ -3,6 +3,11 @@
 <suite name="Suite">
 	
 	<test thread-count="5" name="Test">
+	<groups>	
+				<run>	
+   					 <include name="SmokeTest" ></include>	
+        		</run>	
+       		</groups>
 		<classes>
 			<class name="com.day12.grouping.com.SeleniumEasyAlertTest" />
 		</classes>

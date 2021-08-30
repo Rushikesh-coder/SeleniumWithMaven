@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="env" value="UAT"/>
+  <test name="ParameterFacebook Test">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="env" value="qa"/>
     <classes>
-      <class name="com.day12.grouping.com.SeleniumEasyAlertTest"/>
+      <class name="com.day12.facebookPara.com.logInTest"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- ParameterFacebook Test -->
+  <test name="ParameterFacebook2 Test">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env" value="UAT"/>
+    <classes>
+      <class name="com.day12.facebookPara.com.logInTest"/>
+    </classes>
+  </test> <!-- ParameterFacebook2 Test -->
 </suite> <!-- Failed suite [Suite] -->

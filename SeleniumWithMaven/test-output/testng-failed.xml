@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
     <classes>
-      <class name="com.day12.grouping.com.SeleniumEasyAlertTest"/>
+      <class name="com.day12.facebookPara.com.logInTest"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.day12.facebookPara.com.logInTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.day12.facebookPara.com.logInTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

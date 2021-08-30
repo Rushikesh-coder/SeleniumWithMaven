@@ -3,18 +3,16 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test" verbose="2">
     <classes>
-      <class name="com.day12.Dropdown.com.DropdownTest"/>
+      <class name="com.day12.facebookPara.com.logInTest"/>
     </classes>
   </test> <!-- Default test -->
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.day12.Dropdown.com.DropdownTest">
+      <class name="com.day12.facebookPara.com.logInTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="initalizeWebEnvirnmentSetUp"/>
-          <include name="TC_01VerifyHeaderOfPage"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.day12.Dropdown.com.DropdownTest -->
+      </class> <!-- com.day12.facebookPara.com.logInTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

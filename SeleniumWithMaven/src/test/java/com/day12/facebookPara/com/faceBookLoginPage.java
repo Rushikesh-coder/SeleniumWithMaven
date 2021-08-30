@@ -1,7 +1,5 @@
 package com.day12.facebookPara.com;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,15 +9,14 @@ import org.testng.annotations.Test;
 public class faceBookLoginPage {
 	public WebDriver driver = null;
 	
-	
-	public void initilizeWebEnvirnment() {
+	public void initilizeWebEnvirnment(String Browser, String enviernment) {
 		System.setProperty("webdriver.chrome.driver",
 				System.getProperty("user.dir") + "/src/main/resources/drivers/chromedriver.exe");
 		driver = new ChromeDriver();
-//		driver.get(objConfig.getProperty("AUT_URL_RedioButton"));
 		 driver.get("https://www.facebook.com/");
+//		driver.get(url);
 		driver.manage().window().maximize();
-		
+		System.out.println("Browser : "+Browser+"   Enviernment : "+enviernment);
 	}
 	
 	public void loginUsingCredentials(String strUserName, String strPassword)

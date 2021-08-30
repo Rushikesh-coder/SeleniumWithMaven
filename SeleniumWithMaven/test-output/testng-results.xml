@@ -1,71 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="9" passed="9" failed="0" skipped="0">
+<testng-results total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-17T13:28:15Z" name="Suite" finished-at="2021-08-17T13:28:29Z" duration-ms="14107">
+  <suite started-at="2021-08-30T03:27:26Z" name="Default suite" finished-at="2021-08-30T03:27:26Z" duration-ms="72">
     <groups>
-      <group name="SmokeTest">
-        <method signature="SeleniumEasyAlertTest.TC_05ClickButtonAndVerifyAlertTextNormalWarning()[pri:5, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_05ClickButtonAndVerifyAlertTextNormalWarning" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
-        <method signature="SeleniumEasyAlertTest.TC_07ClickButtonAndVerifyAlertTextNormalDenger()[pri:7, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_07ClickButtonAndVerifyAlertTextNormalDenger" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
-        <method signature="SeleniumEasyAlertTest.TC_09ClickButtonAndVerifyAlertTextNormalINFO()[pri:9, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_09ClickButtonAndVerifyAlertTextNormalINFO" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
-      </group> <!-- SmokeTest -->
-      <group name="RegrationTest">
-        <method signature="SeleniumEasyAlertTest.TC_01verifyDropdownClickValueAndPageIsDesplayed()[pri:1, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_01verifyDropdownClickValueAndPageIsDesplayed" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
-        <method signature="SeleniumEasyAlertTest.TC_04ClickButtonAndVerifyAlertTextAutoCloseWarning()[pri:4, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_04ClickButtonAndVerifyAlertTextAutoCloseWarning" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
-        <method signature="SeleniumEasyAlertTest.TC_08ClickButtonAndVerifyAlertTextAutoCloseINFO()[pri:8, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_08ClickButtonAndVerifyAlertTextAutoCloseINFO" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
-      </group> <!-- RegrationTest -->
-      <group name="SanatyTest">
-        <method signature="SeleniumEasyAlertTest.TC_03ClickButtonAndVerifyAlertTextNormalSuccess()[pri:3, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_03ClickButtonAndVerifyAlertTextNormalSuccess" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
-        <method signature="SeleniumEasyAlertTest.TC_06ClickButtonAndVerifyAlertTextAutoCloseDenger()[pri:6, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" name="TC_06ClickButtonAndVerifyAlertTextAutoCloseDenger" class="com.day12.grouping.com.SeleniumEasyAlertTest"/>
-      </group> <!-- SanatyTest -->
     </groups>
-    <test started-at="2021-08-17T13:28:15Z" name="Test" finished-at="2021-08-17T13:28:29Z" duration-ms="14107">
-      <class name="com.day12.grouping.com.SeleniumEasyAlertTest">
-        <test-method is-config="true" signature="initalizewebSetUpEnvirnment()[pri:0, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:15Z" name="initalizewebSetUpEnvirnment" finished-at="2021-08-17T18:58:24Z" duration-ms="9395" status="PASS">
+    <test started-at="2021-08-30T03:27:26Z" name="Default test" finished-at="2021-08-30T03:27:26Z" duration-ms="72">
+      <class name="com.day12.facebookPara.com.logInTest">
+        <test-method is-config="true" signature="initializeweb(java.lang.String, java.lang.String)[pri:0, instance:com.day12.facebookPara.com.logInTest@712625fd]" started-at="2021-08-30T08:57:26Z" name="initializeweb" finished-at="2021-08-30T08:57:26Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method initializeweb but has not been marked @Optional or defined
+in C:\Users\Admin\AppData\Local\Temp\testng-eclipse--902899565\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method initializeweb but has not been marked @Optional or defined
+in C:\Users\Admin\AppData\Local\Temp\testng-eclipse--902899565\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initalizewebSetUpEnvirnment -->
-        <test-method signature="TC_01verifyDropdownClickValueAndPageIsDesplayed()[pri:1, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:24Z" name="TC_01verifyDropdownClickValueAndPageIsDesplayed" finished-at="2021-08-17T18:58:27Z" duration-ms="2655" status="PASS">
+        </test-method> <!-- initializeweb -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.day12.facebookPara.com.logInTest@712625fd]" started-at="2021-08-30T08:57:26Z" name="login" data-provider="getData" finished-at="2021-08-30T08:57:26Z" duration-ms="9" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rushikesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01verifyDropdownClickValueAndPageIsDesplayed -->
-        <test-method signature="TC_02ClickButtonAndVerifyAlertTextAutoCloseSuccess()[pri:2, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:27Z" name="TC_02ClickButtonAndVerifyAlertTextAutoCloseSuccess" finished-at="2021-08-17T18:58:27Z" duration-ms="182" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.day12.facebookPara.com.logInTest@712625fd]" started-at="2021-08-30T08:57:26Z" name="close" finished-at="2021-08-30T08:57:26Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_02ClickButtonAndVerifyAlertTextAutoCloseSuccess -->
-        <test-method signature="TC_03ClickButtonAndVerifyAlertTextNormalSuccess()[pri:3, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:27Z" name="TC_03ClickButtonAndVerifyAlertTextNormalSuccess" finished-at="2021-08-17T18:58:27Z" duration-ms="173" status="PASS">
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initializeweb(java.lang.String, java.lang.String)[pri:0, instance:com.day12.facebookPara.com.logInTest@712625fd]" started-at="2021-08-30T08:57:26Z" name="initializeweb" finished-at="2021-08-30T08:57:26Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_03ClickButtonAndVerifyAlertTextNormalSuccess -->
-        <test-method signature="TC_04ClickButtonAndVerifyAlertTextAutoCloseWarning()[pri:4, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:27Z" name="TC_04ClickButtonAndVerifyAlertTextAutoCloseWarning" finished-at="2021-08-17T18:58:28Z" duration-ms="257" status="PASS">
+        </test-method> <!-- initializeweb -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.day12.facebookPara.com.logInTest@712625fd]" started-at="2021-08-30T08:57:26Z" name="login" data-provider="getData" finished-at="2021-08-30T08:57:26Z" duration-ms="2" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pramod@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_04ClickButtonAndVerifyAlertTextAutoCloseWarning -->
-        <test-method signature="TC_05ClickButtonAndVerifyAlertTextNormalWarning()[pri:5, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:28Z" name="TC_05ClickButtonAndVerifyAlertTextNormalWarning" finished-at="2021-08-17T18:58:28Z" duration-ms="162" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.day12.facebookPara.com.logInTest@712625fd]" started-at="2021-08-30T08:57:26Z" name="close" finished-at="2021-08-30T08:57:26Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_05ClickButtonAndVerifyAlertTextNormalWarning -->
-        <test-method signature="TC_06ClickButtonAndVerifyAlertTextAutoCloseDenger()[pri:6, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:28Z" name="TC_06ClickButtonAndVerifyAlertTextAutoCloseDenger" finished-at="2021-08-17T18:58:28Z" duration-ms="150" status="PASS">
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initializeweb(java.lang.String, java.lang.String)[pri:0, instance:com.day12.facebookPara.com.logInTest@712625fd]" started-at="2021-08-30T08:57:26Z" name="initializeweb" finished-at="2021-08-30T08:57:26Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_06ClickButtonAndVerifyAlertTextAutoCloseDenger -->
-        <test-method signature="TC_07ClickButtonAndVerifyAlertTextNormalDenger()[pri:7, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:28Z" name="TC_07ClickButtonAndVerifyAlertTextNormalDenger" finished-at="2021-08-17T18:58:28Z" duration-ms="143" status="PASS">
+        </test-method> <!-- initializeweb -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.day12.facebookPara.com.logInTest@712625fd]" started-at="2021-08-30T08:57:26Z" name="login" data-provider="getData" finished-at="2021-08-30T08:57:26Z" duration-ms="5" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akshay@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PQR@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_07ClickButtonAndVerifyAlertTextNormalDenger -->
-        <test-method signature="TC_08ClickButtonAndVerifyAlertTextAutoCloseINFO()[pri:8, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:28Z" name="TC_08ClickButtonAndVerifyAlertTextAutoCloseINFO" finished-at="2021-08-17T18:58:28Z" duration-ms="289" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.day12.facebookPara.com.logInTest@712625fd]" started-at="2021-08-30T08:57:26Z" name="close" finished-at="2021-08-30T08:57:26Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_08ClickButtonAndVerifyAlertTextAutoCloseINFO -->
-        <test-method signature="TC_09ClickButtonAndVerifyAlertTextNormalINFO()[pri:9, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:28Z" name="TC_09ClickButtonAndVerifyAlertTextNormalINFO" finished-at="2021-08-17T18:58:29Z" duration-ms="206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_09ClickButtonAndVerifyAlertTextNormalINFO -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.day12.grouping.com.SeleniumEasyAlertTest@2af004b]" started-at="2021-08-17T18:58:29Z" name="closeBrowser" finished-at="2021-08-17T18:58:29Z" duration-ms="445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.day12.grouping.com.SeleniumEasyAlertTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- close -->
+      </class> <!-- com.day12.facebookPara.com.logInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
