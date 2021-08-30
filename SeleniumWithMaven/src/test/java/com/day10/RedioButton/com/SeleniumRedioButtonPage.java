@@ -29,7 +29,7 @@ public class SeleniumRedioButtonPage {
 		objBaseTest.getDriver().findElement(By.xpath("//input[@value='"+strPath+"' and @name='optradio']")).click();
 	}
 	
-	
+	//Selenium easy
 	
 	
 	public void clickonGetCheckedValueButton()     //Click on get Value button
